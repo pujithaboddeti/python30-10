@@ -1,0 +1,61 @@
+amt=int(input('enter amount'))
+tt=0
+fh=0
+th=0
+hd=0
+ft=0
+ty=0
+tn=0
+fr=0
+tr=0
+one=0
+while amt>=2000:
+    tt=tt+1
+    amt=amt-tt
+while amt>=500:
+    fh=fh+1
+    amt=amt-fh
+while amt>=200:
+    th=th+1
+    amt=amt-th
+while amt>=100:
+    hd=hd+1
+    amt=amt-hd
+while amt>=50:
+    ft=ft+1
+    amt=amt-ft
+while amt>=20:
+    ty=ty+1
+    amt=amt-ty
+while amt>=10:
+    tn=tn+1
+    amt=amt-tn
+while amt>=5:
+    fr=fr+1
+    amt=amt-fr
+while amt>=2:
+    tr=tr+1
+    amt=amt-tr
+while amt>=1:
+    one=one+1
+    amt=amt-one
+if tt>0:
+    print('2000:',str(tt))
+if fh>0:
+    print('500:',str(fh))
+if th>0:
+    print('200:',str(th))
+if hd>0:
+    print('100:',str(hd))
+if ft>0:
+    print('50:',str(ft))
+if ty>0:
+    print('20:',str(ty))
+if tn>0:
+    print('10:',str(tn))
+if fr>0:
+    print('5:',str(fr))
+if tr>0:
+    print('2:',str(tr))
+if one>0:
+    print('1:',str(one))
